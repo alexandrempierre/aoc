@@ -14,9 +14,7 @@ if __name__ == '__main__':
                 horizontal += steps
                 depth += aim * steps
             elif line.startswith('up'):
-                depth -= steps
                 aim -= steps
             elif line.startswith('down'):
-                depth += steps
                 aim += steps
         print(horizontal * depth)
